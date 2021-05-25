@@ -2,6 +2,7 @@
 !**/packages/repositories.config
 **/packages/*
 **/bin/*
+**/obj/*
 **/.vs/*
 *.log
 *.nupkg
