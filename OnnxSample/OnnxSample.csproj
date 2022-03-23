@@ -200,8 +200,14 @@
     <None Include="sample-model.onnx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="sample-seg-model.onnx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="simple_seg_test.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="simple_test.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
